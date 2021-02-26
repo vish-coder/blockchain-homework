@@ -36,7 +36,41 @@ Step 1: Create Genesis
 
 Step 2: Create nodes and initialize
 1. To create the nodes use the following statements. In  this project, I have used 2 nodes (node1, node2)  and they love talking ALL DAY ALL NIGHT like the new lovers! 
-2. 
+2. ./geth account new --datadir node1
+3. ./geth account new --datadir node2
+4. I got a successful message 
+5. Then I went to the blockchain tools directory to see there were 2 folders
+6. then i initialized my nodes by running following commands
+7.  ./geth init magnet.json --datadir node1 ,  ./geth init magnet.json --datadir node2
+8. This will initialize the nodes
+
+Step 3: Firing up our magnet (blockchain): 
+1. ./geth --datadir node1 --unlock "0x29a283EB012017DbC30918B73f6Bd3018E0c76C1" --mine --minerthreads 1 - this command starts the node 1 mining
+2. copy the enode address 
+3. Then use the enode address to make our second node - node 2 - to talk to node 1. 
+4. this commmand will start that command - ./geth --datadir node2 --port 30304 --rpc --bootnodes "enode://a1aa4a2e8ce56ad2a2f770f79013ee4cb322907a272a6e26a93ddc97595ed6349b8403f6e994dcf2378dc2d3048ea96e652be27cdc469c773c0f066c374e73f0@127.0.0.1:30303" --ipcdisable
+ 5. Now magnet is up and running. 
+
+Step 4: Set up custom network
+1. go to mycrytpo 
+2. set up the custom network by adding the network name - magnet, network id 999 and the http://127.0.0.1:8545
+3. Then connect  to network using private key that is stored in a textpad on local machine (if you forgot to keep it handy, not to worry, use optional step 4)
+4. this is optional step if you havent saved your private key. Go go testnet , open your waller with the mnemonic and then copy the private key of your wallet 
+5. Open magnet with private key
+6. you must see that this wallet is pre funded with huge number of ETH.
+7. this is end of this step
+
+Step 5: Transact on mycrypto:
+1. go to view and send
+2. copy/paste the node (my address) in "to address " 0x054220BDAb81A1031b6A9B6fAD142aec59B3922d
+3. Send any amount from "your" account to "your" account 
+4. I am sending 10000000 
+5. then you will see that this transaction has been successfully submitted 
+6. you can also see the hash on the gitbash in node 1 like below
+INFO [02-26|09:14:43.433] Submitted transaction                    fullhash=0x9afd10fe3f7318da73d67788f20e73a98b35f33fc9b7d6c23e8c53c8918edde2 recipient=0x054220BDAb81A1031b6A9B6fAD142aec59B3922d
+
+This concludes the second part of the assignment.  
+
 
 
  
