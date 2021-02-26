@@ -1,0 +1,32 @@
+=============== Feb 25, 2021 (EST) ===============
+13:45:16.883343 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:45:16.889481 db@open opening
+13:45:16.892472 version@stat F·[] S·0B[] Sc·[]
+13:45:16.898587 db@janitor F·2 G·0
+13:45:16.898587 db@open done T·8.119ms
+13:45:16.903616 db@close closing
+13:45:16.903616 db@close done T·0s
+=============== Feb 25, 2021 (EST) ===============
+14:42:19.344266 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:42:19.345266 version@stat F·[] S·0B[] Sc·[]
+14:42:19.345266 db@open opening
+14:42:19.345266 journal@recovery F·1
+14:42:19.345266 journal@recovery recovering @1
+14:42:19.349266 memdb@flush created L0@2 N·623 S·50KiB "\x02d\xfc..\x19Ba,v429":"\xfe\x88\xcf..H\xef\xcc,v362"
+14:42:19.351295 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+14:42:19.357281 db@janitor F·3 G·0
+14:42:19.357281 db@open done T·12.0149ms
+14:42:19.362282 db@close closing
+14:42:19.362282 db@close done T·0s
+=============== Feb 25, 2021 (EST) ===============
+16:16:37.028693 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:16:37.029694 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+16:16:37.029694 db@open opening
+16:16:37.029694 journal@recovery F·1
+16:16:37.030700 journal@recovery recovering @3
+16:16:37.034054 memdb@flush created L0@5 N·1 S·390B "eth..\xb3\xba9,v625":"eth..\xb3\xba9,v625"
+16:16:37.035961 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+16:16:37.039961 db@janitor F·4 G·0
+16:16:37.039961 db@open done T·10.2663ms
+16:16:37.046511 db@close closing
+16:16:37.046511 db@close done T·0s
