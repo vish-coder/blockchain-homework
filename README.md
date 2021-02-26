@@ -1,4 +1,4 @@
-# blockchain-homework
+# blockchain-homework - Part 2
 blockchain-homework
 Welcome to Vishal's MagNet - my first blockchain! 
 
