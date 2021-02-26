@@ -71,6 +71,7 @@ INFO [02-26|09:14:43.433] Submitted transaction                    fullhash=0x9a
 
 This concludes the second part of the assignment.  
 
+Please refer to screenshots here https://github.com/vish-coder/blockchain-homework/issues/1
 
 
  
