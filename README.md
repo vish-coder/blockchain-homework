@@ -1,5 +1,27 @@
-# blockchain-homework - Part 2
+# blockchain-homework
 blockchain-homework
+Part 1: Blockchain Case Study 
+
+What is Hive? 
+HIVE Blockchain Technologies Ltd. is a growth oriented, TSX.V-listed company building a bridge from the blockchain sector to traditional capital markets. HIVE owns state-of-the-art green energy-powered data centre facilities in Canada, Sweden and Iceland, which produce newly minted digital currencies like Bitcoin and Ethereum continuously on the cloud. Our deployments provide shareholders with exposure to the operating margins of digital currency mining as well as a portfolio of crypto-coins.
+
+What’s the big idea behind HIVE?
+HIVE is a growth oriented, publicly listed company building a bridge from the blockchain sector to traditional capital markets.
+
+Blockchain technology is revolutionizing finance and there are very few ways for investors to gain exposure to businesses in this space.
+
+HIVE is a relatively new public company that uses high powered computing assets to mine cryptocurrencies like Ethereum and Bitcoin on the cloud. Our deployments provide shareholders with exposure to the operating margins of digital currency mining as well as a portfolio of crypto-coins.
+
+What is HIVE’s business model?
+Simply put, HIVE is a cryptocurrency mining firm. We validate transactions on blockchain networks — like Ethereum — for rewards paid in cryptocurrencies. Everyday HIVE earns new crypto coins which it can monetize for revenue and cash flow. HIVE offers shareholders exposure to the operating margins from cryptocurrency mining plus a growing portfolio of coins.
+
+What are HIVE’s assets?
+HIVE owns state-of-the-art green energy-powered data centre facilities in Canada, Sweden and Iceland, which produce newly minted digital currencies like Bitcoin and Ethereum continuously on the cloud.
+
+Why go public on the TSXV?
+Being a first mover to list on a major public exchange was a key part of HIVE’s strategy. It provides equity shareholders a way of getting exposure to the crypto world through a traditional investment vehicle. The capital markets have very few options for investors to participate in the blockchain sector, and HIVE provides a unique opportunity to do so. Public markets are a huge untapped opportunity to finance the growth of the blockchain sector and HIVE. We chose the TSX-Venture Exchange in particular because it is a flexible capital formation platform, and at the same time, is one of the most accessible stock exchanges globally.
+
+Part 2: POA Development Chain.
 Welcome to Vishal's MagNet - my first blockchain! 
 
  how to start the network
