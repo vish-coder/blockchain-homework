@@ -34,7 +34,9 @@ Step 1: Create Genesis
 17. Now use CTRL+C to exit and we are now ready to add nodes to our chain, YAY!!!!
 
 
-
+Step 2: Create nodes and initialize
+1. To create the nodes use the following statements. In  this project, I have used 2 nodes (node1, node2)  and they love talking ALL DAY ALL NIGHT like the new lovers! 
+2. 
 
 
  
